@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Formulário</title>
+    <link href="form_css_Priscila.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <div id="formulario">
+        <form action="">
+            <h4 id="tit1">SISTEMA DE GESTÃO ACADÊMICA</h4>
+            <h4 id="tit2">MANUTENÇÃO DE USUÁRIOS DO SISTEMA INTERNO</h4>
+            <table>
+                <tr>
+                    <td>
+                        <label for="login">Login</label>
+                    </td>
+                    <td>
+                        <input type="text" id="login">
+                </tr>
+                <td>
+                    <label for="pass">Password</label>
+                <td>
+                    <input type="text" id="pass">
+                </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="status">Status</label>
+                    </td>
+                    <td>
+                        <select id="Status">
+                            <option value="inactiv">Inativo</option>
+                            <option value="activ">Ativo</option>
+                    </td>
+                    </select>
+                </tr>
+                <tr>
+                    <td>
+                        <p><label for="tipo">Tipo</label>
+                    </td>
+                    <td>
+                        <input type="radio" id="radio">Técnico
+                        <input type="radio" id="radio">Professor
+                        <input type="radio" id="radio">Aluno</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p><label for="create">Data da Criação</label>
+                    </td>
+                    <td>
+                        <input type="text" id="data">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p><label for="tipo">Perfil</label>
+                    </td>
+                    <td>
+                        <input type="radio" id="radio">Convidado
+                        <input type="radio" id="radio">Admnistrador</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p><label for="obs">Observações</label>
+                        </p>
+                    </td>
+                    <td>
+                        <p><textarea id="obs" cols="55" rows="10"></textarea></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td rowspan="2"><label for="mod">Módulos</label>
+                    </td>
+                    <td>
+                        <input type="checkbox" id="checkbox">Compras
+                        <input type="checkbox" id="checkbox">Biblioteca
+                        <input type="checkbox" id="checkbox">Acadêmico</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="checkbox" id="checkbox">Documentação
+                        <input type="checkbox" id="checkbox">Recursos Humanos</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="submit" value="Enviar">
+                        <input type="reset" value="Limpar">
+                    </td>
+                </tr>
+            </table>
+
+        </form>
+</body>
+
+</html>
